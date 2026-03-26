@@ -1,0 +1,39 @@
+plataforma-cria/
+├── .gitignore                                   ← Arquivo 1
+├── README.md                                    ← Arquivo 2
+├── LICENSE                                      ← Arquivo 3
+├── cursor.rules                                 ← (já tem)
+├── ARCHITECTURE.md                              ← (já tem)
+│
+├── frontend/
+│   ├── .env.example          ← Arquivo 4
+│   ├── package.json          ← Arquivo 5
+│   ├── tsconfig.json         ← Arquivo 6
+│   ├── next.config.js        ← Arquivo 7
+│   ├── vercel.json           ← Arquivo 8
+│   ├── app/
+│   ├── components/
+│   ├── hooks/
+│   ├── lib/
+│   ├── styles/
+│   └── public/
+│
+├── backend/
+│   ├── .env.example          ← Arquivo 9
+│   ├── package.json          ← Arquivo 10
+│   ├── tsconfig.json         ← Arquivo 11
+│   └── src/
+│       ├── index.ts          ← Arquivo 12
+│       ├── api/
+│       ├── db/
+│       ├── services/
+│       └── types/
+│
+├── database/
+│   ├── schema.sql            ← Arquivo 13
+│   └── migrations/
+│
+└── .github/
+    └── workflows/
+        ├── deploy-frontend.yml   ← Arquivo 14
+        └── deploy-backend.yml    ← Arquivo 15
